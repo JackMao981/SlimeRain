@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://buaybx8da5d2x"]
+
+[ext_resource type="PackedScene" uid="uid://de64c04h6hrlx" path="res://scenes/enemies/slime.tscn" id="1_7ea5u"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Slime" parent="." instance=ExtResource("1_7ea5u")]
